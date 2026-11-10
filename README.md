@@ -26,7 +26,7 @@ This repository only includes the notebook. Start from a fresh clone, create you
 4. Install the Python dependencies if needed:
 
    ```bash
-   pip install czifile cellpose opencv-python numpy pandas matplotlib scikit-image scipy
+   pip install czifile "cellpose<4" opencv-python numpy pandas matplotlib scikit-image scipy
    ```
 
 5. Open [inclusionanalysis_TMEM175_day1.ipynb](inclusionanalysis_TMEM175_day1.ipynb) and set `IMAGE_FOLDER` to `data/090425_TMEM175_INCLUSIONS_day 1`.
